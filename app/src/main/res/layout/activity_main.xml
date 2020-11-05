@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="168dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="132dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/increment"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#64E869"
+        android:text="Increment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/display" />
+
+    <Button
+        android:id="@+id/decrement"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#EC896A"
+        android:text="Decrement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/increment" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#F44336"
+        android:text="Reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/decrement" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
